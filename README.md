@@ -12,3 +12,8 @@ Vagrant is traditionally used to virtualize development environments based on co
 2. Run `vagrant up` from the Vagrantfile directory.
 
 3. Once completed, access the environment via `vagrant ssh`.
+
+## Notes
+
+Uses sk95869 in the base image to receive an IP through DHCP from Virtualbox.  You may also build a Vagrant box with a statically assigned IP and set a private network in Virtualbox if you wish to have networking between VMs.
+
